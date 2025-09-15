@@ -1,0 +1,29 @@
+/* In machine round use the app.css file to add all css*/
+/* Here I used this file bcz I want to track all the machine rounds Im implementing */
+.search-input {
+    width: 500px;
+    padding: 5px;
+}
+
+.results-container{
+    width: 500px;
+    margin: auto;
+    border: 1px solid black;
+    padding: 5px;
+    text-align: left;
+    max-height: 300px; 
+    /* auto adjust height to show the google type fixed size available options list */
+    overflow-y: scroll; 
+    /* to make the list scrollable */
+}
+
+.result {
+    display: block; 
+    /* To bring all the results linewise */
+    padding: auto;
+}
+
+.result:hover {
+    background-color: gainsboro;
+    cursor: pointer;
+}
