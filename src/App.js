@@ -4,6 +4,7 @@ import TrafficLight from './components/trafficLight/trafficLight';
 import UpperCaseCharCounter from './components/upperCaseCharCounter/upperCaseCharCounter';
 import MainProgressBar from './components/progressBar/progressBar';
 import AutoCompleteSearchBar from './components/autoCompleteSearchBar/autoCompleteSearchBar';
+import MoneyMolApiData from './components/objectQuestions/moneyMolAPIdata';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
 		<UpperCaseCharCounter/>
 		<MainProgressBar/>
     <AutoCompleteSearchBar/>
+    <MoneyMolApiData/>
     </div>
   );
 }
